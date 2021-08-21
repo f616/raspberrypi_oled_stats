@@ -6,8 +6,8 @@ Conflicts=getty@tty1.service
 [Service]
 Type=simple
 RemainAfterExit=true
-ExecStart=/usr/bin/python3 /usr/bin/stats_start.py
-ExecStop=/usr/bin/python3 /usr/bin/stats_stop.py
+ExecStart=/usr/bin/python3 /usr/bin/statsdisplay_start.py
+ExecStop=/usr/bin/python3 /usr/bin/statsdisplay_stop.py
 StandardInput=tty-force
 
 [Install]
