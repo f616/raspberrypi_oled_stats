@@ -19,29 +19,41 @@ Highlevel guidelines written by heart. Some steps might be missing, some command
 Python3 must be installed.  
 
 1. getting the files  
+```
 cd ~  
 git clone https://github.com/f616/raspberrypi_oled_stats.git  
 cd raspberrypi_oled_stats  
+```
 
 2. create and enable the service  
+```
 cd /usr/bin/  
 sudo ln -s ~/raspberrypi_oled_stats/statsdisplay_start.py  
 sudo ln -s ~/raspberrypi_oled_stats/statsdisplay_stop.py  
 cd /etc/systemd/system/multi-user.target.wants/  
 sudo ln -s ~/raspberrypi_oled_stats/statsdisplay.service  
 sudo systemctl daemon-reload  
+```
 
 To enable the service at start-up:  
+```
 sudo systemctl enable statsdisplay.service 
+```
 
 Start the service command:  
+```
 sudo service statsdisplay start  
+```
 
 Stop the service command:  
+```
 sudo service statsdisplay stop  
+```
 
 Get the service status  
+```
 sudo service statsdisplay status  
+```
 
 #### Based on:  
 https://learn.adafruit.com/adafruit-pioled-128x32-mini-oled-for-raspberry-pi/usage  
