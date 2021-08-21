@@ -55,6 +55,11 @@ Get the service status
 sudo service statsdisplay status  
 ```
 
+
+#### 40 pin header side extension  
+https://oshwlab.com/project/publish/f624396c70244029bcac5fc24f769d60#  
+
+
 #### Based on:  
 https://learn.adafruit.com/adafruit-pioled-128x32-mini-oled-for-raspberry-pi/usage  
 https://www.raspberrypi.org/forums/viewtopic.php?t=22180  
