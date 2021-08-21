@@ -57,7 +57,7 @@ sudo service statsdisplay status
 
 
 #### 40 pin header side extension  
-https://oshwlab.com/project/publish/f624396c70244029bcac5fc24f769d60#  
+https://oshwlab.com/filipe.neto616/raspberry-pi-40-pin-header-replicator  
 
 
 #### Based on:  
