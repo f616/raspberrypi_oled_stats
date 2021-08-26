@@ -30,8 +30,10 @@ cd raspberrypi_oled_stats
 cd /usr/bin/  
 sudo ln -s ~/raspberrypi_oled_stats/statsdisplay_start.py  
 sudo ln -s ~/raspberrypi_oled_stats/statsdisplay_stop.py  
-cd /etc/systemd/system/multi-user.target.wants/  
+cd /lib/systemd/system  
 sudo ln -s ~/raspberrypi_oled_stats/statsdisplay.service  
+cd /etc/systemd/system/multi-user.target.wants/  
+sudo ln -s /lib/systemd/system/statsdisplay.service  
 sudo systemctl daemon-reload  
 ```
 
