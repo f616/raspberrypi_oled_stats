@@ -16,7 +16,9 @@
 #### How to install  
 Highlevel guidelines written by heart. Some steps might be missing, some commands might have the syntax not 100% accurate.  
 
-Python3 must be installed.  
+* Python3 must be installed.  
+* Adafruit CircuitPythin must me be installed  
+* DejaVuSans.ttf font must be present in /usr/share/fonts/truetype/dejavu/ folder  
 
 1. getting the files  
 ```
