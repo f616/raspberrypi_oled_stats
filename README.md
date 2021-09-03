@@ -21,6 +21,7 @@ Highlevel guidelines written by heart. Some steps might be missing, some command
 https://learn.adafruit.com/circuitpython-on-raspberrypi-linux/installing-circuitpython-on-raspberry-pi  
 https://learn.adafruit.com/adafruit-pioled-128x32-mini-oled-for-raspberry-pi/usage  
 * DejaVuSans.ttf font must be present in /usr/share/fonts/truetype/dejavu/ folder  
+https://www.fontsquirrel.com/fonts/dejavu-sans  
 
 1. getting the files  
 ```
